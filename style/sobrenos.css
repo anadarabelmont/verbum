@@ -1,0 +1,62 @@
+.secao-sobrenos{
+  display: flex;
+ 
+  
+}
+
+.secao-sobrenos img{
+  margin-left: 200px;
+  margin-top: 200px;
+  width: 544px;
+  height: 544px;
+
+}
+
+.about-us{
+  width: auto;
+  height: auto;
+  margin-top: 200px;
+  margin-left: 200px;
+
+}
+
+.about-us h3, h2, p{
+ 
+  color: #FFFFFF;
+}
+
+.about-us h3{
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.about-us h2{
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-bottom: 60px;
+  line-height: 1.5;
+}
+
+.about-us p{
+font-size: 24px;
+line-height: 1.5;
+}
+
+.destaque2{
+  padding: 5px 20px;
+  border: 2px solid #E3D04F;
+  border-radius: 63px;
+}
+
+.imgfundosobrenos{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+
+}

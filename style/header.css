@@ -1,0 +1,142 @@
+ header{
+  width: 100%;
+  background-color: white;
+  height: 1000px;
+  border-bottom-left-radius: 300px ;
+}
+
+.menu-topo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+  gap: 100px;
+
+}
+
+.menu li{
+  font-size: 20px;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.introducao{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.intro-texto{
+  width: 100%;
+  padding: 0 300px;
+}
+
+
+.intro-texto h1{
+  font-size: 3.5rem;
+  color: #1E1E20;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+.destaque{
+  color: #7D5DD5;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+}
+
+.intro-texto p{
+  font-size: 1.5rem;
+  color: #1E1E20;
+  margin-top: 20px;
+}
+
+.intro-img{
+  width: 50%;
+  margin-left: 100px;
+}
+
+.intro-img img{
+  width: 700px;
+}
+
+
+/*botao introducao*/
+
+.btn-intro a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn-intro{
+  width: auto;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  padding: 20px 60px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.btn-intro:hover {
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-intro:focus {
+  outline: none;
+}
+
+.btn-intro {
+  background-image: linear-gradient(to right, #7D5DD5, #E3D04F, #7D5DD5, #E3D04F);
+}
+/*fim botao introducao*/
+
+
+/*redes introducao*/
+.intro-redes{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 30px;
+
+}
+
+.intro-redes img{
+  width: 30px;
+  cursor: pointer;
+  ;
+}
+
+.intro-redes img:hover{
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
